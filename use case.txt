@@ -1,0 +1,38 @@
+Requirement number 5
+Title: List All Students
+
+Description: Calculate tuition based on credit hours, Student Type, and Status.
+
+Input: Selected student, number of credit hours.
+
+Output: dialog displaying tuition cost calculated as follows:
+~ Status of resident: undergraduate tuition = number of credit hours x 200
+~ Status of nonresident: undergraduate tuition = number of credit hours x 400
+~ Status of resident: undergraduate part time = number of credit hours x 250
+Status of nonresident: undergraduate part time = number of credit hours x
+450
+~ Status of resident: graduate = number of credit hours x 300
+~ Status of nonresident: graduate = number of credit hours x 350
+
+
+
+Requirement number 3:
+Title: Update Student
+
+Description: Student Admin will update currently selected student, and the updated information will be saved to registrar database Student table.
+
+Input: Selected student will be either Graduate, Undergraduate, or Part-time.
+Input: Choose from dropdown menu to add Graduate, Undergraduate, or Part-time student. Applicable fields will be enabled. For any type of student First Name, Last Name, GPA, Status (Resident, Non-resident), Mentor. Additionally for Undergraduate - Level (Freshman, Sophomore, Junior, Senior), for Graduate - Thesis, Advisor, Thesis Title. for Part-time - Company.
+Output: Record updated and confirmation dialog displayed.
+
+
+Requirement number 3:
+Title: Add Student
+
+Description: Student Admin selects New Student Criteria, and then a new student record is created in the database.
+
+
+Input: Choose from dropdown menu to add Graduate, Undergraduate, or Part-time student. Applicable fields will be enabled. For any type of student First Name, Last Name, GPA, Status (Resident, Non-resident), Mentor. Additionally for Undergraduate - Level (Freshman, Sophomore, Junior, Senior), for Graduate - Thesis, Advisor, Thesis Title. for Part-time - Company.
+Output:New Record created in the database and ID field displays new student ID, additionally an info dialog shows confirming new record creation with its ID.
+
+
